@@ -18,7 +18,7 @@ class ResponsiveDesign extends StatelessWidget {
   }) : super(key: key);
 
   static bool isSmall(BuildContext context) =>
-      MediaQuery.of(context).size.width < smallScreenSize;
+      MediaQuery.of(context).size.width < mediumScreenSize;
 
   static bool isMed(BuildContext context) =>
       MediaQuery.of(context).size.width >= mediumScreenSize &&
